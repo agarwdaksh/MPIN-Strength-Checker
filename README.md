@@ -18,6 +18,7 @@ The goal is to identify MPINs that are weak and easily guessable, thereby promot
  - Detects weak PINs based on:
    - Commonly used PIN datasets (loaded from `.txt` files).
    - Matches with user demographic data in various combinations (`ddmm`, `mmdd`, `yymmdd`, etc.).
+ - Checks for valid date as well
  - Return:
    - Strength: `STRONG` or `WEAK`  
    - Reasons for weak MPINs:
